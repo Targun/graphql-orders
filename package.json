@@ -1,0 +1,27 @@
+{
+  "name": "graphql-orders",
+  "version": "1.0.0",
+  "description": "graphql typescript example",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js --exec babel-node -e js"
+  },
+  "author": "targun",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^15.0.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "tslint": "^5.20.1",
+    "typescript": "^3.9.10"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.24.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "mongodb": "^3.6.6",
+    "mongoose": "^5.12.8"
+  }
+}
